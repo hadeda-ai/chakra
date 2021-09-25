@@ -56,9 +56,10 @@ MIDDLEWARE = [
 ]
 
 CORS_ALLOWED_ORIGINS = [
-    "https://'d1huqf071yx8vn.cloudfront.net", 
-    "http://localhost:8080",
-    "http://localhost:3000",
+    "https://'d1huqf071yx8vn.cloudfront.net/", 
+    "http://localhost:8080/",
+    "https://localhost:8080/",
+    "http://localhost:3000/",
 ]
 
 CORS_ALLOW_METHODS = [
